@@ -2,7 +2,7 @@ def printBackwards (userWord):
     return userWord[::-1]
 
 
-userWord = input("Please enter a word that you would like to see spelled backwards: ")
+userWord = input("Please enter a word: ")
 
 wordBackwards = printBackwards(userWord)
 
